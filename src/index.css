@@ -1,0 +1,56 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .font-Regular {
+    font-family: "RobotRegular"
+  }
+  .font-Medium {
+    font-family: "RobotMedium";
+  }
+
+  .font-SemiBold {
+    font-family: "RobotSemiBold"
+  }
+
+  .font-Bold {
+    font-family: "RobotSemiBold"
+  }
+
+  .font-ExtraBold {
+    font-family: "RobotExtraBold"
+  }
+}
+/* @layer base { */
+ /* 400 */
+@font-face {
+  font-family: "RobotRegular";
+  src: url('./Fonts/Robots/Roboto-Regular.ttf');
+}
+
+/* 500 */
+@font-face {
+  font-family: "RobotMedium";
+  src: url('./Fonts/Robots/Roboto-Medium.ttf');
+}
+
+/* 600 */
+@font-face {
+  font-family:"RobotSemiBold";
+  src: url('./Fonts/Robots/Roboto-SemiBold.ttf');
+}
+
+/* 700 */
+@font-face {
+  font-family:"RobotBold";
+  src: url('./Fonts/Robots/Roboto-Bold.ttf');
+}
+
+/* 800 */
+@font-face {
+  font-family: "RobotExtraBold";
+  src: url('./Fonts/Robots/Roboto-ExtraBold.ttf');
+}
+  
+/* }  */

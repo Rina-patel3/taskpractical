@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+
+
+/* 400 */
+@font-face {
+  font-family: "font-regular";
+  src: url('./Fonts/Robots/Roboto-Regular.ttf');
+}
+
+/* 500 */
+@font-face {
+  font-family: font-medium;
+  src: url('./Fonts/Robots/Roboto-Medium.ttf');
+}
+
+/* 600 */
+@font-face {
+  font-family:font-semiBold;
+  src: url('./Fonts/Robots/Roboto-SemiBold.ttf');
+}
+
+/* 700 */
+@font-face {
+  font-family:"robotbold";
+  src: url('./Fonts/Robots/Roboto-Bold.ttf');
+}
+
+/* 800 */
+@font-face {
+  font-family: "font-extraBold";
+  src: url('./Fonts/Robots/Roboto-ExtraBold.ttf');
+}
+}
